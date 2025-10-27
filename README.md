@@ -1,4 +1,4 @@
-# Multiaccount_Entitie_Backup
+# Multiaccount_Entity_Backup
 Sample code to back up entities from subaccount
 
 This code was built using Node.js,
