@@ -31,7 +31,6 @@ $ openssl rsa -in private_key.pem -pubout -out public_key.pem
 1.2. Run the encrypt_accounts.mjs script from the project directory to convert 'accounts_keys.csv' into 'accounts_keys.enc' file:
 $ node encrypt_accounts.mjs
 
-3. Now run the 'create_droprules_report_v3.mjs' script to generate your report into the "droprules_report.csv" file:
-$ node create_droprules_report_v3.mjs
-
-5. Where do I find my data? Go to your project folder and open up the "droprules_report.csv" file.
+3. Now run the 'xxxx' script to generate your Dashboards backup into the folder 'dashboards_output'
+$ node xxxx
+5. Where do I find my data? Go to your project folder/dashboards_output to see a .json file for each backed up Dashboard. The file name will be: DASHBOARD_NAME.json
