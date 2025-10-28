@@ -20,6 +20,18 @@ graphql-request@7.2.0
 json2csv@6.0.0-alpha.2
 node-fetch@3.3.2
 npm@11.6.0
+*Installation guidelines:
+--> install node:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install --lts
+node -e "console.log('Running Node.js ' + process.version)"
+
+--> install a package:
+npm install -g PACKAGE_NAME
+
+--> list all the node packages:
+npm list -g --depth=0
 
 After downloading all the *.js and *.csv files to your local directory and installing all the npm packages above:
 
