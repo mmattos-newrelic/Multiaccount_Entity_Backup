@@ -29,7 +29,7 @@ node -e "console.log('Running Node.js ' + process.version)"
 
 --> install a package:
 npm install PACKAGE_NAME
-**or simply run this command from the projet directory: bash install_node_packages.sh
+**or simply run this command from the projet's directory: bash install_node_packages.sh
 
 --> list all the node packages:
 npm list -g --depth=0
