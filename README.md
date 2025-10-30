@@ -54,4 +54,4 @@ $ node encrypt_accounts.mjs
 3. Now run the 'entity_backup_v1.js' script to generate your Dashboards backup into the folder 'dashboards_output'
 $ node entity_backup_v1.js
 
-4. Where do I find my data? Go to your [project_folder]/dashboards_output/[account_number] to see a .json file for each backed up Dashboard. The file name will be: DASHBOARD_NAME.json
+4. Where do I find my data? Go to your [project_folder]/dashboards_output/[account_number] to see a .json file for each backed up Dashboard. The file name will be: ACCOUNTID_DASHBOARD_NAME.json
